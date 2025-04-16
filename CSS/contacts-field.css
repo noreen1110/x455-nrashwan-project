@@ -1,0 +1,23 @@
+#contact input[type="text"]::placeholder,
+#contact input[type="email"]::placeholder,
+#contact textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5); 
+}
+#contact input[type="text"] {
+    box-sizing: content-box !important;
+    width: 505px !important; 
+    padding: 10px !important;
+  }
+  
+  #contact input[type="email"] {
+    box-sizing: content-box !important;
+    width: 1042px !important; 
+    padding: 10px !important;
+  }
+  
+  #contact textarea {
+    box-sizing: content-box !important;
+    width: 1042px !important; 
+    padding: 10px !important;
+    height: 120px !important;
+  }

@@ -1,0 +1,21 @@
+footer.w3-container.w3-theme-l5.w3-padding-32.w3-center > div:first-child img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    object-fit: contain; 
+  }
+  
+  footer.w3-container.w3-theme-l5.w3-padding-32.w3-center > div:first-child img:last-child {
+    margin-right: 0;
+  }
+  
+  /* Tragets the TikTok Class */
+  footer.w3-container.w3-theme-l5.w3-padding-32.w3-center > div:first-child img[alt="TikTok"] {
+    width: 40px !important; 
+    height: 40px !important; 
+    object-fit: contain !important; 
+  }
+  footer.w3-container.w3-theme-l5.w3-padding-32.w3-center {
+    background-color: white !important; 
+    text-align: left !important;
+  } 

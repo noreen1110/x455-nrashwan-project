@@ -1,0 +1,28 @@
+* Mobile Filter Button Image Styling */
+.mobile-filter-image {
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -20px;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .mobile-filter-image {
+        display: block;
+    }
+    .desktop-filter-container {
+        display: none;
+    }
+}
+
+
+@media (min-width: 520px) {
+    .mobile-filter-image {
+        display: none !important;
+    }
+    .desktop-filter-container {
+        display: block;
+    }
+}

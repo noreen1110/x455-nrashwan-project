@@ -1,0 +1,20 @@
+
+.search-icon-img {
+  width: 35px; 
+  height: 35px; 
+  vertical-align: middle;
+  transition: filter 0.3s ease; 
+}
+  .shopping-cart-img {
+    width: 35px; 
+    height: auto; 
+    vertical-align: middle;
+    transition: filter 0.3s ease;
+  }
+  
+  .w3-bar-item.w3-button.w3-hide-small.w3-hover-orange:hover .shopping-cart-img {
+    filter: brightness(1.5);
+  }
+  
+  
+

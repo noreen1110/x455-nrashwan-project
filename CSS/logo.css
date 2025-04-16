@@ -1,0 +1,37 @@
+w3-top .navbar-container .w3-bar.w3-theme-d2 .w3-bar-item > a > .logo-img {
+    height:100px !important;
+    max-height: 100px !important; /* Or your desired size */
+  }
+  
+  .w3-bar.w3-theme-d2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .w3-bar.w3-theme-d2 > a:first-child{
+      margin-right: auto;
+  }
+  
+  .w3-bar.w3-theme-d2 > div{
+      display: flex;
+  }
+  
+  .w3-bar.w3-theme-d2 > div > a{
+      margin-left: 10px;
+  }
+  
+  .w3-bar.w3-theme-d2 > div > a:first-child{
+      margin-left:0;
+  }
+  
+  .w3-bar-item.w3-button.w3-hide-small.w3-hover-orange:hover .logo-img {
+    filter: brightness(1.5);
+  }
+  .w3-bar.w3-theme-d2 > a:first-child:hover {
+    background-color: orange; /* Apply orange background */
+}
+.mobile-nav .logo-container .mobile-logo { /* Specific to mobile */
+    height: auto;
+    max-height: 30px; /* Example mobile logo size */
+  }

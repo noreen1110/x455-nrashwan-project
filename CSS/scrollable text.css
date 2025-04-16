@@ -1,0 +1,32 @@
+.w3-padding-64::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.desktop-filter-container {
+    width: 350px;
+    height: 600px;
+    overflow-y: auto;
+    padding-right: 10px;
+    overflow-x: hidden;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filter-options {
+    padding-right: 10px;
+}
+.filter-title {
+    margin-top: 0;
+}
+.filter-line {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 5px 0 10px 0;
+}
+.filter-label {
+    display: block;
+    margin-bottom: 5px;
+}

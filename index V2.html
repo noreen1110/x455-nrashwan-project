@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./CSS/w3.css">
+<link rel="stylesheet" href="./CSS/w3-theme-black.css">
+<link rel="stylesheet" href="./CSS/font-awesome-5.css">
+<link rel="stylesheet" href="./CSS/carousel.css">
+<link rel="stylesheet" href="./CSS/image-text-wrap-page-3.css">
+<link rel="stylesheet" href="./CSS/icons.css">
+<href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-right w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+  <a href="#" class="w3-bar-item w3-button">Link 6</a>
+  <a href="#" class="w3-bar-item w3-button">Link 7</a>
+  <a href="#" class="w3-bar-item w3-button">Link 8</a>
+  <a href="#" class="w3-bar-item w3-button">Link 9</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="navbar-container">
+  <div class="w3-bar w3-theme-d2" style="display: flex; justify-content: space-between; align-items: center;">
+    <a href="#Home" class="w3-bar-item"> <img src="./images /85562a631b154322ba1d3cc376a2ecfa-free copy.png" alt="85562a631b154322ba1d3cc376a2ecfa-free copy" class="logo-img">
+    </a>
+    <div>
+        <a href="#Home" class="w3-bar-item w3-button w3-hide-small w3-hover-orange"style="font-size: 25px; padding: 12px 24px">Home</a>
+        <a href="#New Arrivals" class="w3-bar-item w3-button w3-hide-small w3-hover-orange"style="font-size: 25px; padding: 12px 24px">New Arrivals</a>
+        <a href="#Our Story" class="w3-bar-item w3-button w3-hide-small w3-hover-orange"style="font-size: 25px; padding: 12px 24px">Our Story</a>
+        <a href="#Painting" class="w3-bar-item w3-button w3-hide-small w3-hover-orange"style="font-size: 25px; padding: 12px 24px">Paintings</a>
+        <a href="#Our Journey" class="w3-bar-item w3-button w3-hide-small w3-hover-orange"style="font-size: 25px; padding: 12px 24px">Our Journey</a>
+        <a href="#Trade" class="w3-bar-item w3-button w3-hide-small w3-hover-orange"style="font-size: 25px; padding: 12px 24px">Trade</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-orange"style="font-size: 25px; padding: 12px 24px">Contacts</a>
+        <a href="#FAQ" class="w3-bar-item w3-button w3-hide-small w3-hover-orange"style="font-size: 25px; padding: 12px 24px">FAQ</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-orange" title="Search">
+          <img src="./images /search-interface-symbol.png" alt="Search" class="search-icon-img">
+        </a>
+          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-orange" title="Shopping Cart">
+            <span class="shopping-cart-icon-container">
+              <img src="./images /shopping-cart.png" alt="Shopping Cart" class="shopping-cart-img">
+            </span>
+            <script src="./Javascript/icon.js"></script>
+          </a>
+      
+          
+        </a>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#Home" class="w3-bar-item w3-button">Home</a>
+    <a href="#New Arrivals" class="w3-bar-item w3-button">New Arrivals</a>
+    <a href="#Our Story" class="w3-bar-item w3-button">Our Story</a>
+    <a href="#Paintings" class="w3-bar-item w3-button">Paintings</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Page 1- HomePage -->
+<div class="w3-container w3-padding-64 w3-center" id="Home"></div>
+<div class="w3-display-container w3-animate-opacity">  
+    <img
+    src="./images /steven-ungermann-vvah86ql8iM-unsplash.jpg"
+    alt="boat"
+    style="width: 50%; min-height: 950px; max-height: 1000px;"
+    class="steven-urgermann-vvah86ql8iM-unsplash"
+  />
+  <div style="position: relative; display: inline-block;">
+    <div
+      style="
+        position: absolute;
+        top: -505px;
+        right: -1600px;
+        width: 2090px;
+        height: 1000px;
+        background-color: rgba(16, 52, 166, 4);
+        display: flex; 
+        justify-content: center; 
+        align-items: center;">
+          <div style="text-align: center;">
+            <h1 style="color: white;">
+              <span>WELCOME TO </span>
+              <span>PAINTING </span>
+              <span>HOBBY GAL</span>
+            </h1>
+            <button
+              onclick="document.getElementById('id01').style.display='block'"
+              class="w3-button w3-xlarge w3-theme"
+              style="margin-top: 20px; width: 200px; height: 50px;"
+            >
+              Shop Now
+            </button>
+          </div>
+      <style>
+        .open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 100px;
+}
+      </style>
+    </div>
+  </div>
+<div>
+  
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Page 2- New Arrivals- Carousel -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="New Arrivals">
+
+<div class="w3-quarter">
+<h2>New Arrivals</h2>
+<style>
+        .open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 100px;
+}
+      </style>
+ <div class="w3-rest">
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="./images /bekky-bekks-tmP-rS55gUY-unsplash.jpg" alt="Image 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="./images /steve-johnson-YJQeI8JLBLs-unsplash.jpg" alt="Image 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="./images /ai-generated-9148695_1280.jpg" alt="Image 3">
+      </div>
+      <div class="carousel-slide">
+        <img src="./images /painted-poppies-1750014_1280.jpg" alt="Image 4">
+      </div>
+      <div class="carousel-slide">
+        <img src="./images /art-2200731_1280.jpg" alt="Image 5">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Page 3- Our Story-Paragraph-with-2-wrap-images -->
+<div class="w3-theme-d1" id="Our Story">
+    <h2>Our Story</h2>
+
+    <div class="content-container w3-theme-d1">
+        <div class="content-wrapper">
+          <p class="paragraph">
+      <p class="center-text">Painting Hobby Gal, a website brimming with vibrant hues and textured canvases, is the brainchild of Sarah Jenkins, a self-taught artist who rediscovered her passion for painting after years of working in a corporate job. 
+        Sarah's journey began with a simple watercolor set and a desire to escape the monotony of office life. Her contemporary style, characterized by bold strokes and an expressive use of color, quickly garnered attention within her local art community, 
+        <img src="./images /matthieu-jungfer-aYwJeBcFEQQ-unsplash.jpg" alt="Image 1" class="left-wrap-image"> 
+        leading to her first small exhibition at a neighborhood cafe. The website, launched shortly after, serves as both a dynamic portfolio showcasing her evolving artistic journey and an online shop where art enthusiasts from around the globe can purchase 
+        her original pieces. From abstract landscapes inspired by her travels through the rugged Scottish Highlands to striking portraits capturing the nuanced essence of human emotion, each painting tells a story, a fragment of Sarah's own experience translated 
+        onto canvas. Sarah diligently updates the site with new artwork, artist statements, and behind-the-scenes glimpses into her creative process, sharing the raw, unfiltered moments of inspiration and struggle. This transparency fosters a genuine connection with
+        her growing audience, transforming them from mere viewers into a community of fellow art lovers.</p>
+        
+    <p class="center-text">Beyond the website, Painting Hobby Gal extends its reach across various 
+    social media platforms, creating a vibrant digital ecosystem for art enthusiasts. Sarah actively engages with her followers
+     on Instagram (@PaintingHobbyGal), sharing daily updates on her work in progress, from the initial sketch to the final brushstroke, 
+     studio setup tips, and even the occasional impromptu art challenge, inviting her followers to participate. Her Facebook page, Painting Hobby Gal Art, 
+     serves as a hub for announcements about upcoming online exhibitions, special promotions, and links to in-depth blog posts where she discusses her artistic inspirations, 
+     the techniques she employs, and the stories behind her most beloved pieces. Through these interconnected platforms, Sarah has cultivated a thriving online community, connecting with fellow artists, 
+     seasoned art collectors, and individuals who simply appreciate the beauty and power of contemporary art. Her digital presence is not just a showcase of her work, but a testament to the power of art to
+    connect people across geographical and cultural boundaries, creating a space for dialogue, inspiration, and shared appreciation.</p>
+</div>
+       
+<!-- Painting Container --> 
+<div class="w3-container w3-padding-64 w3-theme-l5" id="Paintings">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Chicago, US</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Our Journey Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="Our Journey"></div>
+<div class="w3-row">
+    <div class="w3-col m5">
+<h2> Our Journey</h2>
+</div>
+<!-- Trade Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="Trade"></div>
+<div class="w3-row">
+    <div class="w3-col m5">
+<h2> Trade</h2>
+<!-- Contacts Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="Contacts"></div>
+<div class="w3-row">
+    <div class="w3-col m5">
+<h2> Contacts</h2>
+<!-- FAQ Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="Contacts"></div>
+<div class="w3-row">
+    <div class="w3-col m5">
+<h2> FAQ</h2>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

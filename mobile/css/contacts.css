@@ -1,0 +1,37 @@
+.contacts-section {
+    padding: 20px;
+  }
+  
+  /* Desktop Form */
+  .desktop-contacts-container {
+    display: flex; /* Default visible */
+    justify-content: center; /* Center horizontally */
+    background-color: lightblue; /* Debugging color */
+  }
+  
+  /* Mobile Form */
+  .mobile-contacts-container {
+    display: none; /* Default hidden */
+    background-color: lightgreen; /* Debugging color */
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .desktop-contacts-container {
+      display: none; /* Hide desktop form */
+    }
+  
+    .mobile-contacts-container {
+      display: block; /* Show mobile form */
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .desktop-contacts-container {
+      display: flex; /* Show desktop form */
+    }
+  
+    .mobile-contacts-container {
+      display: none; /* Hide mobile form */
+    }
+  }

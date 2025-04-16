@@ -1,0 +1,74 @@
+/* Styles for the hamburger button */
+.hamburger-button {
+  font-size: 30px;
+  cursor: pointer;
+  display: none; /* Hidden on desktop by default */
+  padding: 10px; /* Add some padding for touch targets */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none; /* Hidden by default */
+  background-color: #444;
+  position: absolute;
+  top: 50px; /* Adjust based on the height of your mobile-nav-bar */
+  left: 0;
+  width: 100%; /* Make it full width */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1001; /* Ensure it's above other content */
+}
+
+.dropdown-menu.show {
+  display: block; /* Shown when toggled */
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #555;
+}
+
+@media screen and (min-width: 520px) {
+  .mobile-nav-bar {
+    display: none; /* Hide the entire mobile nav bar on desktop */
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .mobile-nav-bar {
+    display: block; /* Show the mobile nav bar container */
+    position: fixed; /* Keep it at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Or your preferred background */
+    color: #fff;
+    display: flex; /* For aligning the hamburger button */
+    justify-content: flex-end; /* Push button to the right */
+    align-items: center;
+    padding: 5px 10px; /* Adjust padding */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+
+  .hamburger-button {
+    display: block; /* Show hamburger button on mobile */
+    color: #fff; /* Style the icon color */
+  }
+
+  .dropdown-menu {
+    position: fixed; /* Cover the whole viewport */
+    top: 50px; /* Below the mobile nav bar */
+    left: 0;
+    width: 100%;
+    background-color: #444;
+  }
+}

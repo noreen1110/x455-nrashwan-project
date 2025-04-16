@@ -1,0 +1,33 @@
+table {
+    max-width: 1500px; 
+    border-collapse: collapse;
+    margin: 20px auto; 
+  }
+  
+  th.table-header {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .open-sans-p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .open-sans-medium-row td {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+  }
+  #Trade.w3-container {
+    background-color: transparent !important; 
+  }

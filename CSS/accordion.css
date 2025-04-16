@@ -1,0 +1,45 @@
+faq-wrapper { 
+    background-color: white !important;
+  }
+  
+  #FAQ.w3-padding-64 {
+    background-color: white !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  
+  #FAQ h2.w3-theme-l1 {
+    background-color: white !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  
+  .accordion-row {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  
+  .accordion-content {
+    background-color: white !important;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 0 !important;
+  }
+  
+  .accordion-row hr {
+    margin-bottom: 0 !important;
+  }
+  
+  #contact.w3-padding-64.w3-theme-l1.w3-theme-d1 {
+    background-color: #1034A6 !important; 
+  }
+  .w3-theme-d1 * #FAQ {
+    background-color: white !important;
+  }
+  .main-content {
+    background-color: white !important; 
+  }
+  
+  .main-content #FAQ {
+    background-color: transparent !important;
+  } 

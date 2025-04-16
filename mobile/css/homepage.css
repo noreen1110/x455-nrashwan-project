@@ -1,0 +1,44 @@
+.mobile-home-section {
+    display: none; /* Initially hidden */
+    flex-direction: column; /* Stack image above content */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text within content */
+  }
+  
+  .mobile-home-image {
+    width: 100%; /* Make image take full width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space below image */
+  }
+  
+  .mobile-home-content {
+    background-color: navy;
+    color: white;
+    padding: 20px; /* Adjust padding as needed */
+    width: 100%; /* Make the rectangle full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .mobile-home-title {
+    font-family: "Open Sans", sans-serif; /* Ensure Open Sans is used */
+    font-size: 1.8em; /* Adjust size as needed */
+    margin-bottom: 15px; /* Space between heading and button */
+  }
+  
+  .mobile-home-button {
+    background-color: orange;
+    color: white;
+    font-family: "Open Sans", sans-serif; /* Ensure Open Sans is used */
+    font-size: 1em; /* Adjust size as needed */
+    padding: 15px 30px; /* Adjust padding for button size */
+    border: none;
+    border-radius: 5px; /* Optional: rounded corners */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  
+  /* Show this section only on screens 600px and smaller */
+  @media (max-width: 600px) {
+    .mobile-home-section {
+      display: flex; /* Show on mobile */
+    }
+  }

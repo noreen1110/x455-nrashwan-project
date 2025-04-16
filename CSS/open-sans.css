@@ -1,0 +1,63 @@
+/* Common default for open sans) */
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  w3-display-container h1.open-sans-font-h1 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:800;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+          font-size: 70px;
+      }
+
+      .w3-theme-l1 h2.open-sans-font-h2 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:500;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+          font-size: 40px;
+      }
+
+      .painting-grid .grid-item .painting-details h3.open-sans-font-h2 {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500; 
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+        font-size: 30px; 
+      }
+    
+  .open-sans-font-p {
+    font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:300;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+          font-size: 16px !important;
+  }
+  
+  .open-sans-font-nav {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      font-size: 25px;
+  }
+
+  .filter-container .filter-options h3.filter-title.open-sans-font-h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500; 
+    font-size: 30px; 
+  }
+  

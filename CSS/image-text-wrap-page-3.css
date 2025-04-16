@@ -1,0 +1,110 @@
+
+  .left-wrap-image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px; 
+    max-width: 215px;
+    height: auto;
+  }
+
+  .right-wrap-image {
+    float: right;
+    margin-left: 3px; 
+    margin-bottom: 10px;
+    margin-top: 0;
+    max-width: 250px; 
+    height: auto;
+  }
+
+  .image-paragraph-container {
+   width: 90%;
+    overflow: hidden;
+    padding-left: 80px;
+  }
+  
+  .content-wrapper {
+    text-align: left !important;
+  }
+  .paragraph {
+    text-align: left;
+  }
+  
+  .center-text {
+    text-align: left !important; 
+    line-height: 2;
+  }
+ 
+  #OurStory {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    text-align: left !important;
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+    padding: 16px !important; 
+  }
+
+  .content-container.w3-theme-d1 {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    text-align: left !important;
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+    padding: 16px !important; 
+    padding-left: 80px !important; 
+    padding-right: 80px !important; 
+  }
+.w3-col.m8, 
+  .w3-col.l6 {
+    width: auto !important; 
+    float: left !important; 
+  }
+  
+.w3-quarter,
+.w3-third,
+.w3-twothird,
+.w3-half,
+.w3-content,
+.w3-auto {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  float: left !important; 
+  display: block !important; 
+  width: 100% !important; 
+}
+
+  /* Desktop specific styles */
+  @media (min-width: 768px) {
+    #Our Story + .w3-container.w3-theme-d1 {
+      max-width: 960px !important;
+      margin-left: 0 !important;
+      margin-right: auto !important;
+      float: left !important;
+      padding-left: 80px !important; 
+      padding-right: 80px !important; 
+    }
+}
+#OurStory + .w3-container.w3-theme-d1 { 
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  float: left !important;
+  display: block !important;
+  width: auto !important;
+  padding: 50px 50px !important;
+}
+
+.content-container .content-wrapper p {
+  font-size: 20px !important; 
+  line-height: 1.6 !important; 
+}
+
+.content-container .content-wrapper p.open-sans-font {
+  font-size: 20px !important;
+} 
+
+
+
+
