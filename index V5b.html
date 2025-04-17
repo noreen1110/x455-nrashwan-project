@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device width,initial-scale=1">
+<link rel="stylesheet" href="./CSS/w3.css">
+<link rel="stylesheet" href="./CSS/w3-theme-black.css">
+<link rel="stylesheet" href="./CSS/carousel.css">
+<link rel="stylesheet" href="./CSS/image-text-wrap-page-3.css">
+<link rel="stylesheet" href="./CSS/icons.css">
+<link rel="stylesheet" href="./CSS/font-awesome-4.7.0.css">
+<link rel="stylesheet" href="./CSS/painting-grid.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./CSS/scrollable text.css">
+<link rel="stylesheet" href="./CSS/open-sans.css">
+<link rel="stylesheet" href="./CSS/lightbox.css">
+<link rel="stylesheet" href="./CSS/our-journey.css">
+<link rel="stylesheet" href="./CSS/logo.css">
+<link rel="stylesheet" href="./CSS/table.css">
+<link rel="stylesheet" href="./CSS/contacts-field.css">
+<link rel="stylesheet" href="./CSS/accordion.css">
+<link rel="stylesheet" href="./CSS/footer.css">
+<link rel="stylesheet" href="./mobile/css/nav-bar.css">
+<link rel="stylesheet" href="./mobile/css/homepage.css">
+<link rel="stylesheet" href="./mobile/css/filter.css">
+
+
+
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-right w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+  <a href="#" class="w3-bar-item w3-button">Link 6</a>
+  <a href="#" class="w3-bar-item w3-button">Link 7</a>
+  <a href="#" class="w3-bar-item w3-button">Link 8</a>
+  <a href="#" class="w3-bar-item w3-button">Link 9</a>
+</nav>
+
+<!-- Desktop Navbar -->
+<div class="w3-top">
+  <div class="navbar-container">
+    <div class="w3-bar w3-theme-d2 w3-hide-small" style="justify-content: space-between; align-items: center;">
+      <a href="#Home" class="w3-bar-item">
+        <img src="./images /85562a631b154322ba1d3cc376a2ecfa-free copy.png" alt="Desktop Logo" class="logo-img">
+      </a>
+      <div>
+        <a href="#Home" class="w3-bar-item w3-button w3-hover-orange" style="font-size: 25px; padding: 12px 24px">Home</a>
+        <a href="#New Arrivals" class="w3-bar-item w3-button w3-hover-orange" style="font-size: 25px; padding: 12px 24px">New Arrivals</a>
+        <a href="#Our Story" class="w3-bar-item w3-button w3-hover-orange" style="font-size: 25px; padding: 12px 24px">Our Story</a>
+        <a href="#Painting" class="w3-bar-item w3-button w3-hover-orange" style="font-size: 25px; padding: 12px 24px">Paintings</a>
+        <a href="#Our Journey" class="w3-bar-item w3-button w3-hover-orange" style="font-size: 25px; padding: 12px 24px">Our Journey</a>
+        <a href="#Trade" class="w3-bar-item w3-button w3-hover-orange" style="font-size: 25px; padding: 12px 24px">Trade</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hover-orange" style="font-size: 25px; padding: 12px 24px">Contacts</a>
+        <a href="#FAQ" class="w3-bar-item w3-button w3-hover-orange" style="font-size: 25px; padding: 12px 24px">FAQ</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-orange" title="Search">
+          <img src="./images /search-interface-symbol.png" alt="Search" class="search-icon-img">
+        </a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-orange" title="Shopping Cart">
+          <span class="shopping-cart-icon-container">
+            <img src="./images /shopping-cart.png" alt="Shopping Cart" class="shopping-cart-img">
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Mobile Nav bar -->
+  <nav class="navbar">
+    <div class="mobile-nav-bar w3-top w3-hide-medium w3-hide-large">
+      <div class="hamburger-button" onclick="toggleMenu()">
+        ☰
+      </div>
+      <ul class="dropdown-menu">
+        <li><a href="#Home" class="w3-bar-item w3-button">Home</a></li>
+        <li><a href="#New Arrivals" class="w3-bar-item w3-button">New Arrivals</a></li>
+        <li><a href="#Our Story" class="w3-bar-item w3-button">Our Story</a></li>
+        <li><a href="#Paintings" class="w3-bar-item w3-button">Paintings</a></li>
+        <li><a href="#Our Journey" class="w3-bar-item w3-button">Our Journey</a></li>
+        <li><a href="#Trade" class="w3-bar-item w3-button">Trade</a></li>
+        <li><a href="#Contacts" class="w3-bar-item w3-button">Contacts</a></li>
+        <li><a href="#FAQ" class="w3-bar-item w3-button">FAQ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Page 1- HomePage-Full Screen Background Image -->
+<div class="w3-container w3-padding-64 w3-center" id="Home"></div>
+    <img
+    src="./images /steven-ungermann-vvah86ql8iM-unsplash.jpg"
+    alt="boat"
+    style="width: 50%; min-height: 950px; max-height: 1000px;"
+    class="steven-urgermann-vvah86ql8iM-unsplash"
+  />
+  <div style="position: relative; display: inline-block;">
+    <div
+      style="
+        position: absolute;
+        top: -505px;
+        right: -1600px;
+        width: 2090px;
+        height: 1000px;
+        background-color: rgba(16, 52, 166, 4);
+        display: flex; 
+        justify-content: center; 
+        align-items: center;">
+          <div style="text-align: center;">
+            <h1 style="color: white;">
+              <span>WELCOME TO </span>
+              <span>PAINTING </span>
+              <span>HOBBY GAL</span>
+            </h1>
+            <button
+              onclick="document.getElementById('id01').style.display='block'"
+              class="w3-button w3-xlarge w3-theme"
+              style="margin-top: 20px; width: 200px; height: 50px;"
+            >
+              Shop Now
+            </button>
+          </div>  
+    </div>
+  </div>
+<div>
+  
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+<!-- Page 1- Mobile Version-- HomePage-Full Screen Background Image -->
+<div class="mobile-home-section">
+  <img src="./images /steven-ungermann-vvah86ql8iM-unsplash.jpg" alt="Homepage Image" class="mobile-home-image">
+  <div class="mobile-home-content">
+    <h1 class="mobile-home-title">WELCOME TO PAINTING HOBBY GAL</h1>
+    <button class="mobile-home-button">SHOP NOW</button>
+  </div>
+</div>
+
+<!-- Page 2- New Arrivals- Carousel -->
+<div class="w3-row-padding w3-padding-64" id="New Arrivals">
+    <h2 class="w3-theme-l1 open-sans-font-h2" style="text-align: left !important;">New Arrivals</h2>
+  </div>
+</div>
+
+ <div class="w3-quarter"></div>
+ <div class="image-carousel">
+    <div class="carousel-slide-container">
+      <div class="carousel-slide">
+        <img src="./images /bekky-bekks-tmP-rS55gUY-unsplash.jpg" alt="Image 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="./images /steve-johnson-YJQeI8JLBLs-unsplash.jpg" alt="Image 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="./images /ai-generated-9148695_1280.jpg" alt="Image 3">
+      </div>
+      <div class="carousel-slide">
+        <img src="./images /painted-poppies-1750014_1280.jpg" alt="Image 4">
+      </div>
+      <div class="carousel-slide">
+        <img src="./images /art-2200731_1280.jpg" alt="Image 5">
+      </div>
+    </div>
+    <button class="carousel-control prev">&#10094;</button>
+    <button class="carousel-control next">&#10095;</button>
+    <div class="carousel-indicators">
+      <span class="indicator active"></span>
+      <span class="indicator"></span>
+      <span class="indicator"></span>
+      <span class="indicator"></span>
+      <span class="indicator"></span>
+    </div>
+  </div>
+
+  <!-- Page 3- Our Story-Paragraph-with-2-wrap-images- 2-paragraphs & 2 hyperlinks-->
+  <div class="w3-row-padding w3-padding-64 w3-theme-l1"id="Our Story"></div>
+
+  <div class="w3-quarter">
+    <div class="w3-theme-d1" id="Our Story">
+    <h2 class="w3-theme-d1 open-sans-font-h2">Our Story</h2>
+
+    <div class="w3-rest"> <div class="content-container"> <div class="content-wrapper">
+      <p class="center-text open-sans-font">Painting Hobby Gal, a website brimming with vibrant hues and textured canvases, is the brainchild of Sarah Jenkins, a self-taught artist who rediscovered her passion for painting after years of working in a corporate job. 
+        Sarah's journey began with a simple watercolor set and a desire to escape the monotony of office life. Her contemporary style, characterized by bold strokes and an expressive use of color, quickly garnered attention within her local art community, 
+        <img src="./images /matthieu-jungfer-aYwJeBcFEQQ-unsplash.jpg" alt="Image 1" class="left-wrap-image"> 
+        leading to her first small exhibition at a neighborhood cafe. The website, launched shortly after, serves as both a dynamic portfolio showcasing her evolving artistic journey and an online shop where art enthusiasts from around the globe can purchase 
+        her original pieces. From abstract landscapes inspired by her travels through the rugged Scottish Highlands to striking portraits capturing the nuanced essence of human emotion, each painting tells a story, a fragment of Sarah's own experience translated 
+        onto canvas. Sarah diligently updates the site with new artwork, artist statements, and behind-the-scenes glimpses into her creative process, sharing the raw, unfiltered moments of inspiration and struggle. This transparency fosters a genuine connection with
+        her growing audience, transforming them from mere viewers into a community of fellow art lovers.</p>
+        
+    <p class="center-text open-sans-font">Beyond the website, Painting Hobby Gal extends its reach across various 
+    social media platforms, creating a vibrant digital ecosystem for art enthusiasts. Sarah
+    <img src="./images /laura-adai-5H2ketFL1LE-unsplash.jpg" alt="Image 2" class="right-wrap-image">  actively engages with her followers
+     on Instagram (<a href="https://www.instagram.com/artdesignbyari/)" target="_blank">@artdesignbyari</a>, sharing daily updates on her work in progress, from the initial sketch to the final brushstroke, 
+     studio setup tips, and even the occasional impromptu art challenge, inviting her followers to participate. Her Facebook page,<a href="https://www.facebook.com/groups/contemporarypaintings/" target="_blank">contemporary painting</a>, 
+     serves as a hub for announcements about upcoming online exhibitions, special promotions, and links to in-depth blog posts where she discusses her artistic inspirations, 
+     the techniques she employs, and the stories behind her most beloved pieces. Through these interconnected platforms, Sarah has cultivated a thriving online community, connecting with fellow artists, 
+     seasoned art collectors, and individuals who simply appreciate the beauty and power of contemporary art. Her digital presence is not just a showcase of her work, but a testament to the power of art to
+    connect people across geographical and cultural boundaries, creating a space for dialogue, inspiration, and shared appreciation.</p>
+</div>
+</div>
+</div>
+</div>
+
+<!--Page 4- Paintings- Scrollable text & Images with lightbox effects --> 
+<div class="w3-theme-l1" id="Paintings">
+  <h2 class="w3-theme-l1 open-sans-font-h2" style="text-align: left !important;">Paintings</h2>
+<!-- Desktop Filter Container -->
+  <div class="desktop-filter-container">
+      <div class="filter-options">
+          <h3 class="filter-title open-sans-font-h3">Category</h3>
+          <hr class="filter-line">
+          <label class="filter-label">
+              <input type="checkbox" name="category" value="stretched"> Stretched
+          </label><br>
+          <label class="filter-label">
+              <input type="checkbox" name="category" value="unstretched"> Unstretched
+          </label><br>
+          <label class="filter-label">
+              <input type="checkbox" name="category" value="print"> Print
+          </label><br><br>
+
+          <h3 class="filter-title open-sans-font-h3">Medium</h3>
+          <hr class="filter-line">
+          <label class="filter-label">
+              <input type="checkbox" name="medium" value="oil"> Oil
+          </label><br>
+          <label class="filter-label">
+              <input type="checkbox" name="medium" value="mixed-media"> Mixed Media
+          </label><br>
+          <label class="filter-label">
+              <input type="checkbox" name="medium" value="acrylic"> Acrylic
+          </label><br>
+          <label class="filter-label">
+              <input type="checkbox" name="medium" value="digital"> Digital
+          </label><br><br>
+
+          <h3 class="filter-title open-sans-font-h3">Orientation</h3>
+          <hr class="filter-line">
+          <label class="filter-label">
+              <input type="checkbox" name="orientation" value="portrait"> Portrait
+          </label><br>
+          <label class="filter-label">
+              <input type="checkbox" name="orientation" value="landscape"> Landscape
+          </label><br><br>
+
+          <h3 class="filter-title open-sans-font-h3">Prices</h3>
+          <hr class="filter-line">
+          <label class="filter-label">
+              <input type="checkbox" name="price" value="under-500"> Under $500
+          </label><br>
+          <label class="filter-label">
+              <input type="checkbox" name="price" value="500-800"> $500 - $800
+          </label><br>
+          <label class="filter-label">
+              <input type="checkbox" name="price" value="1000-plus"> $1000+
+          </label>
+      </div>
+  </div>
+
+  <div class="painting-grid">
+      <div class="grid-item">
+          <a href="./images /images- 2/geordanna-cordero-5NE6mX0WVfQ-unsplash.jpg" data-lightbox="paintings">
+              <img src="./images /images- 2/geordanna-cordero-5NE6mX0WVfQ-unsplash.jpg" alt="Portrait Painting 1" width="300" height="400">
+          </a>
+          <div class="painting-details">
+              <h3 class="painting-name open-sans-font-h2">Composition 442 </h3>
+              <p class="painting-medium open-sans-font-p">Acrlyic on Canvas</p>
+              <p class="painting-category open-sans-font-p">Stretched</p>
+              <p class="painting-price open-sans-font-p">$400</p>
+          </div>
+      </div>
+      <div class="grid-item">
+          <a href="./images /images- 2/city-street-8303876_1280.jpg" data-lightbox="paintings">
+              <img src="./images /images- 2/city-street-8303876_1280.jpg" alt="Portrait Painting 2" width="350" height="450">
+          </a>
+          <div class="painting-details">
+              <h3 class="painting-name open-sans-font-h2">City's Night</h3>
+              <p class="painting-medium open-sans-font-p">Mixed Media on Canvas</p>
+              <p class="painting-category open-sans-font-p">Print</p>
+              <p class="painting-price open-sans-font-p">$100</p>
+          </div>
+      </div>
+      <div class="grid-item">
+          <a href="./images /images- 2/painting-8764330_1280.jpg" data-lightbox="paintings">
+              <img src="./images /images- 2/painting-8764330_1280.jpg" alt="Portrait Painting 3" width="280" height="380">
+          </a>
+          <div class="painting-details">
+              <h3 class="painting-name open-sans-font-h2">Dancing Flames</h3>
+              <p class="painting-medium open-sans-font-p">Oil on canvas</p>
+              <p class="painting-category open-sans-font-p">Print</p>
+              <p class="painting-price open-sans-font-p">$145</p>
+          </div>
+      </div>
+      <div class="grid-item landscape">
+          <a href="./images /images- 2/vecteezy_ai-generated-oil-painting-abstract-expressionism-background_42193339.jpg" data-lightbox="paintings">
+              <img src="./images /images- 2/vecteezy_ai-generated-oil-painting-abstract-expressionism-background_42193339.jpg" alt="Landscape Painting 1">
+          </a>
+          <div class="painting-details">
+              <h3 class="painting-name open-sans-font-h2">Summer Vibes</h3>
+              <p class="painting-medium open-sans-font-p">Acrylic on Canvas</p>
+              <p class="painting-category open-sans-font-p">Unstretched</p>
+              <p class="painting-price open-sans-font-p">$600</p>
+          </div>
+      </div>
+      <div class="grid-item">
+          <a href="./images /images- 2/vecteezy_ai-generated-oil-painting-abstract-city-background_42193270.jpg" data-lightbox="paintings">
+              <img src="./images /images- 2/vecteezy_ai-generated-oil-painting-abstract-city-background_42193270.jpg" alt="Landscape Painting 2">
+          </a>
+          <div class="painting-details">
+              <h3 class="painting-name open-sans-font-h2">Early Morning</h3>
+              <p class="painting-medium open-sans-font-p">Acrylic on Canvas</p>
+              <p class="painting-category open-sans-font-p">Unstretched</p>
+              <p class="painting-price open-sans-font-p">$750</p>
+          </div>
+      </div>
+      <div class="grid-item">
+          <a href="./images /images- 2/ai-generated-8893538_1280.jpg" data-lightbox="paintings">
+              <img src="./images /images- 2/ai-generated-8893538_1280.jpg" alt="Landscape Painting 3">
+          </a>
+          <div class="painting-details">
+              <h3 class="painting-name open-sans-font-h2">Future View</h3>
+              <p class="painting-medium open-sans-font-p">Digital</p>
+              <p class="painting-category open-sans-font-p">Stretched</p>
+              <p class="painting-price open-sans-font-p">$230</p>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Page 5- Our Journey-Three embedded Videos -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1 w3-theme-d1" id="Our Journey">
+        <div> <div class="content-container">
+        <div class="content-wrapper"></div>
+        <h2 class="w3-theme-d1 open-sans-font-h2">Our Journey</h2>
+                <p class="center-text open-sans-font-p">Immerse yourself in the creative journey as we unveil the artistry and craftsmanship that transforms blank canvases into breathtaking works of art. Watch the passion and dedication that fuels our
+                every brushstroke, and discover the stories behind each masterpiece. Don’t forget to follow us for more through our social media platforms.</p>
+               
+                <div class="videos-container">
+                <video width="560" height="315" controls>
+                    <source src="./videos/video-1-embeded.mp4" type="video/mp4">
+                </video>
+                <video width="560" height="315" controls>
+                  <source src="./videos/video-2-embeded.mp4" type="video/mp4">
+              </video>
+              <video width="560" height="315" controls>
+                <source src="./videos/video-3-embededmp4.mp4" type="video/mp4">
+            </video>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Page 6-Trade- Table with 4 coloumns,headers, entries & sorted by header -->
+<h2 class="w3-theme-l1 open-sans-font-h2" style="text-align: left !important;" id="Trade"> Trade</h2>
+<h3 class="w3-theme-l1 open-sans-font-h2" style="text-align: left !important;"> Art for Businesses</h3>
+<table>
+  <thead>
+    <tr>
+      <th class="table-header">Coporate Package</th>
+      <th class="table-header">Event Package</th>
+      <th class="table-header">Hospitality Package</th>
+      <th class="table-header">Customization Package</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="open-sans-p">This package is ideal for businesses
+        who seek cohesive set for their
+        departments or locations.</td>
+      <td class="open-sans-p">This package is ideal for businesses who
+        want to create interactive art experiences
+        at events or conferences.</td>
+      <td class="open-sans-p">This package is ideal for businesses who
+        aims to set a welcoming atmosphere
+        that enhances the guest experience and
+        the brand’s aesthetics.</td>
+      <td class="open-sans-p">This package is ideal for businesses who
+        seek art specialists understanding their
+        brand, target audience and desired
+        ambiance.</td>
+    </tr>
+    <tr>
+      <td class="open-sans-p">Multiple curated paintings.</td>
+      <td class="open-sans-p">Multiple curated paintings.</td>
+      <td class="open-sans-p">Multiple curated paintings.</td>
+      <td class="open-sans-p">Development of a custom art concept and
+        style guide, including color palettes, themes,
+        and potential mediums.</td>
+    </tr>
+    <tr>
+      <td class="open-sans-p">UV Protection varnish is applied on all
+        paintings.</td>
+      <td class="open-sans-p">Bulk shipping and transportation into
+        one location</td>
+      <td class="open-sans-p">Installation services on site</td>
+      <td class="open-sans-p">Onsite or virtual assessment of space.</td>
+    </tr>
+    <tr>
+      <td class="open-sans-p">Bulk shipping and transportation into
+        one location</td>
+      <td class="open-sans-p">Live Painting ( optional and with
+        additional cost)</td>
+      <td class="open-sans-p">Incorporating local landmarks
+        (optional)</td>
+      <td class="open-sans-p">Multiple custom paintings fitting your
+        business brand.</td>
+    </tr>
+    <tr class="open-sans-medium-row">
+      <td class="open-sans-medium">$1499</td>
+      <td class="open-sans-medium">$1999</td>
+      <td class="open-sans-medium">$2499</td>
+      <td class="open-sans-medium">$4999</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--Page 7-Contacts-Extra-No Requirements -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1 w3-theme-d1" id="Contacts">
+  <div> <div class="content-container">
+  <div class="content-wrapper"></div>
+  <h2 class="w3-theme-d1 open-sans-font-h2">Contacts</h2>
+  <div id="contact" style="text-align: center; padding: 20px;">
+    <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
+      <input type="text" placeholder="First Name" style="width: 200px; padding: 10px; color: rgba(0, 0, 0, 0.5);">
+      <input type="text" placeholder="Last Name" style="width: 200px; padding: 10px; color: rgba(0, 0, 0, 0.5);">
+    </div>
+    <div style="margin-bottom: 10px;">
+      <input type="email" placeholder="Email Address" style="width: 410px; padding: 10px; color: rgba(0, 0, 0, 0.5);">
+    </div>
+    <div style="margin-bottom: 20px;">
+      <textarea placeholder="Comments" style="width: 410px; padding: 10px; height: 120px; color: rgba(0, 0, 0, 0.5);"></textarea>
+    </div>
+    <button onclick="document.getElementById('id01').style.display='block'" style="background-color: orange; color: black; padding: 20px 50px; border: none; cursor: pointer;font-size: 18px;">Send</button>
+  </div>
+</div></div>
+</div>
+
+
+
+  <!--Page 8-FAQ-Accordion Content-->
+  <div id="FAQ" class="w3-padding-64 w3-row-padding">
+    <h2 class="w3-theme-l1 open-sans-font-h2" style="text-align: left !important;">FAQ</h2>
+    <div class="accordion-container" style="background-color: white;">
+      <div class="accordion-row">
+        <div class="accordion-title" style="color: navy; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+          <div style="text-align: left;">Do you have framing options?</div>
+          <div class="accordion-icon" style="border: 1px solid black; border-radius: 50%; width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; font-size: 16px;">+</div>
+        </div>
+        <div class="accordion-content" style="display: none; padding: 10px; text-align: left; background-color: white;">
+          </div>
+        <hr style="border: 1px solid black;">
+      </div>
+      <div class="accordion-row">
+      <div class="accordion-title open" style="color: navy; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+        <div style="text-align: left;">Do you offer expedited shipping?</div>
+        <div class="accordion-icon open" style="border: 1px solid black; border-radius: 50%; width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; font-size: 16px;">-</div>
+      </div>
+      <div class="accordion-content open" style="padding: 10px; text-align: left; background-color: white; color: navy;">
+        Yes, but it will of course be more pricy than the ordinary shipping. Also, we offer the expedited shipping both nationally and internationally.
+      </div>
+      <hr style="border: 1px solid black;">
+    </div>
+      <div class="accordion-row">
+        <div class="accordion-title" style="color: navy; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+          <div style="text-align: left;">Can I track my order?</div>
+          <div class="accordion-icon" style="border: 1px solid black; border-radius: 50%; width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; font-size: 16px;">+</div>
+        </div>
+        <div class="accordion-content" style="display: none; padding: 10px; text-align: left; background-color: white;">
+          </div>
+        <hr style="border: 1px solid black;">
+      </div>
+      <div class="accordion-row">
+        <div class="accordion-title" style="color: navy; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+          <div style="text-align: left;">Can I provide my own image for a custom painting?</div>
+          <div class="accordion-icon" style="border: 1px solid black; border-radius: 50%; width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; font-size: 16px;">+</div>
+        </div>
+        <div class="accordion-content" style="display: none; padding: 10px; text-align: left; background-color: white;">
+          </div>
+        <hr style="border: 1px solid black;">
+      </div>
+      <div class="accordion-row">
+        <div class="accordion-title open" style="color: navy; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+          <div style="text-align: left;">Do you provide digital art assets for marketing purposes?</div>
+          <div class="accordion-icon open" style="border: 1px solid black; border-radius: 50%; width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; font-size: 16px;">-</div>
+        </div>
+        <div class="accordion-content open" style="padding: 10px; text-align: left; background-color: white;">
+          </div>
+        <hr style="border: 1px solid black;">
+      </div>
+    </div>
+  </div>
+    
+ <!--Footer -->
+ <footer class="w3-container w3-theme-l5 w3-padding-32 w3-center">
+  <div style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto;">
+    <div style="text-align: left;">
+      <a href="#" target="_blank"><img src="./images /facebook icon.png" alt="Facebook" style="width: 32px; height: 32px; margin-right: 10px;"></a>
+      <a href="#" target="_blank"><img src="./images /instagram.jpeg" alt="Instagram" style="width: 32px; height: 32px; margin-right: 10px;"></a>
+      <a href="#" target="_blank"><img src="./images /tik tok logo.png" alt="Tiktok" class="tiktok-icon" style="width: 40px; height: 40px;"></a>
+    </div>
+    <div>
+      <img src="./images /85562a631b154322ba1d3cc376a2ecfa-free copy.png" alt="Your Logo" style= "height: auto; width: 150px;"> </div>
+    <div style="text-align: right;">
+      &copy; 2025 PAINTING HOBBY GIRL
+    </div>
+  </div>
+</footer>
+<script src="./Javascript/icon.js"></script>
+<script src="./Javascript/carousel.js"></script>
+<script src="./Javascript/lightbox.js"></script>
+<script src="./Javascript/logo.js"></script>
+<script src="./Javascript/accordin.js"></script>
+<script src="./mobile-javascript/nav-bar.js"></script>
+
+
+</body>
+</html>
+       
+      
